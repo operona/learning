@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  border: red thin solid;
+}
+
+body {
+  margin: 0;
+}
+
+.top {
+  background-color: rgb(21, 23, 21);
+  width:100%;
+  height: 25%;
+}
+
+.telefono {
+  color: white;
+
+}
+
+.login {
+  background-color: rgb(63, 186, 52);
+
+}
+
+.top {
+  height: 30px;
+}
+
+.toplist {
+  margin-left: 1500px;
+  height: 30px;
+}
+
+.toplist > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.toplist > ul > li {
+  display: inline-block;
+}
+
+.header {
+  height: 80px;
+}
+
+
+  .menu {
+ text-align: right;
+ height: 80px;
+  }
+
+  .menu > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .menu > ul > li {
+    display: inline-block;
+  }
+
+  .logo {
+    float: left;
+
+  }
